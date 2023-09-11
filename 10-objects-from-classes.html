@@ -1,0 +1,29 @@
+<script>
+    class car {
+        // properties
+        color = ""
+        deuren = ""
+
+        // constructor
+        constructor(color, deuren) {
+            this.color = color
+            this.deuren = deuren
+        }
+        // method
+        getColor() {
+            return(this.color)
+        }
+        getDeuren() {
+            return(this.deuren)
+        }
+        }
+
+
+    const fiat = new car("red",3)
+    const porsche = new car("black",5)
+
+    console.log({
+        fiat: `${fiat.getColor()} ${fiat.getDeuren()}`,
+        porsche: porsche.getColor()
+    })
+</script>
