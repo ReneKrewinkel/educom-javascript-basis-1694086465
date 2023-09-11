@@ -1,0 +1,33 @@
+<script>
+    const name = "Bootleg Bob"
+
+    // length of the string
+    const length = name.length
+
+    // case manipulation
+    const lowerCase = name.toLowerCase()
+    const upperCase = name.toUpperCase()
+
+    // replace only 1
+    const replaced = name.replace("o","a")
+
+    // all with regular expression
+    const replaceAll = name.replace(/o/g, "a")
+
+    // substring
+    const substring = name.substring(2,8)
+
+    // array
+    const toArray = name.split(" ")
+
+    console.log({
+        length: length,
+        lowerCase: lowerCase,
+        upperCase: upperCase,
+        replaced: replaced,
+        replaceAll: replaceAll,
+        toArray: toArray,
+        substring: substring
+    })
+
+    </script>
