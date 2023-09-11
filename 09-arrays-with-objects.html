@@ -1,0 +1,16 @@
+<script>
+
+    const shoppingCart = [
+        {
+            id:1, name: "HTML book", price: 12.50},
+            {id:2, name: "CSS book", price: 10.00},
+            {id:3, name: "JavaScript book", price: 20.00}
+    ]
+
+    let total = 0
+    shoppingCart.forEach((item)=> {
+        total += item.price
+    })
+
+    console.log(`Total: ${total}`)
+</script>
